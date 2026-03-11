@@ -41,7 +41,7 @@ Simply wrap your text in `#mando-ruby[...]` to get automatic annotations.
 It's possible to specify the word separation.
 
 ```typst
-#import "./auto-mando/lib.typ": *
+#import "@preview/auto-mando:0.1.0": mando-ruby
 #set text(24pt, font: ("Libertinus Serif", "AR PL KaitiM Big5"))
 #mando-ruby(word-sep: 0.7em)[
   北京歡迎你們！
