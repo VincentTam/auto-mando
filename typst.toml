@@ -1,7 +1,7 @@
 [package]
 name = "auto-mando"
-version = "0.1.0"
-entrypoint = "lib.typ"
+version = "0.2.0"
+entrypoint = "src/lib.typ"
 authors = ["Vincent Tam <https://github.com/VincentTam>"]
 license = "MIT"
 description = "Automatic conversion to Mandarin romanizations from Chinese characters."
@@ -9,6 +9,7 @@ repository = "https://github.com/VincentTam/auto-mando"
 keywords = [
     "Mandarin",
     "pinyin",
+    "zhuyin",
     "Chinese",
     "conversion",
 ]
@@ -22,6 +23,11 @@ disciplines = [
     "linguistics",
 ]
 compiler = "0.14.0"
-exclude = ["example.png"]
+exclude = [
+    "custom-ruby.png",
+    "example.png",
+    "pinyin-eg.png",
+    "zhuyin-eg.png",
+]
 
 [tool]
