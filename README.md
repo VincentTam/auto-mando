@@ -1,9 +1,10 @@
 # auto-mando
 
 `auto-mando` is a Typst plugin that provides automatic conversion of Chinese
-characters (Hanzi) into Mandarin romanization (Pīnyīn). It leverages a
-high-performance Rust-based WASM plugin to segment text and apply ruby
-annotations.
+characters (Hanzi) into Mandarin romanization (Pīnyīn). It leverages the
+high-performance Rust-based WASM plugin produced by my Rust crate
+[`rust-mando`](https://crates.io/crates/rust-mando) to segment text and apply
+ruby annotations.
 
 ## Features
 
