@@ -38,7 +38,8 @@
       box(
         align(bottom,
           stack(
-            text(size: rb-size, stack(dir: ttb, ..glyphs)),
+            // Stack bopomofo alphabets from top to bottom
+            text(size: rb-size,stack(dir: ttb, ..glyphs)),
             // Magnify tone mark for easier reading
             scale(
               text(
@@ -48,7 +49,7 @@
                 bottom-edge: "bounds"
               ),
               200%,
-              reflow: true
+              origin: top+left,
             ),
             dir: ltr
           )
